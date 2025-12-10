@@ -8,13 +8,13 @@ Bazzite optimisation scripts for the BC-250 SBC.
 
 This script does the following:
 
-1️⃣ Enable COPR repo filippor/bazzite (skip if already enabled)
-2️⃣ Install cyan‑skillfish‑governor‑tt (Thermal Throttling and Overclocking, will boost to 2230Mhz, and throttle if temps hit 85C automatically)
-3️⃣ Stop & disable oberon‑governor (If you have already installed this governor, it will disable it, not remove it, so you can re-enable if you want)
-4️⃣ Append mitigations=off to kernel args (This infers you are using this as a Steam Machine game console, if you are using this machine as your primary PC then I recommend not running this script)
-5️⃣ Create custom zRAM configuration and use compression with less CPU overhead (There is a few issues with ram and some games trying to use more that you actually have, this is to assist in reducing these issues)
-6️⃣ Reload systemd daemon
-7️⃣ Adjust vm.swappiness (This tells the OS to swap to more often to your NVME drive, this is to try and mitigate ram related issues with some titles)
+1 - Enable COPR repo filippor/bazzite (skip if already enabled)
+2 - tall cyan‑skillfish‑governor‑tt (Thermal Throttling and Overclocking, will boost to 2230Mhz, and throttle if temps hit 85C automatically)
+3 - Stop & disable oberon‑governor (If you have already installed this governor, it will disable it, not remove it, so you can re-enable if you want)
+4 - Append mitigations=off to kernel args (This infers you are using this as a Steam Machine game console, if you are using this machine as your primary PC then I recommend not running this script)
+5 - Create custom zRAM configuration and use compression with less CPU overhead (There is a few issues with ram and some games trying to use more that you actually have, this is to assist in reducing these issues)
+6 - Reload systemd daemon
+7 - Adjust vm.swappiness (This tells the OS to swap to more often to your NVME drive, this is to try and mitigate ram related issues with some titles)
 
  #####################
 # Script Installation #
