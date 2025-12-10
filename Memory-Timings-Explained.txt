@@ -1,0 +1,21 @@
+###############################
+#BC-250 GDDR6 Memory Explained#
+###############################
+
+ClockSpeed=1750 <- Any change here, will require tCL26 - 1875 Appears to be the max safe limit, will not post over this limit
+tCL=24 <- 1750 and lower requires 24, 1755 and higher, requires 26
+tRAS=52 <- This has to be tCL + tRCD + 1 (This ram has unsynced RD/WR for tRCD so we can use the WR value to bring this down, and seems to be valid for slight performance improvment)
+tRCDRD=27 <- This is normaly = to tCL + 1, but changing this to 25 has a negative effect on performance, both for tCL24 and tCL26, so it needs to be left at 27
+tRCDWR=19 <- This is the same, best to leave this value were it is, any change makes performance worse
+tRCAb=78 <- This will not post if set below 70, and gives best results at 71 or 72
+tRCPb=00 <- This is zero as it is synced/locked to tRCAb
+tRPAb=26 <- I believe this is manufacturer specific, have not tried to adjust this one, as I have no information on it
+tRPPb=00 <- This is synced/locked to tRPAb
+tRRDS=08 <- I believe this is manufacturer specific, have not tried to adjust this one, as I have no information on it
+tRRDL=08 <- I believe this is manufacturer specific, have not tried to adjust this one, as I have no information on it
+tRTP=02 <- I believe this is manufacturer specific, have not tried to adjust this one, as I have no information on it
+tFAW=32 <- I believe this is manufacturer specific, have not tried to adjust this one, as I have no information on it
+tREF=9975 <- This one higher is better, also reduces power consumption and heat, 13000 and it wont post, 12000 is stock for an RX 6600, I got board with this one at 12900)
+RFCPb=0210 <- This one, higher is better, Wont post at 214, fails test at 213, so 212 is max
+tRFC=0280 <- This one, lower is better, I got board around 224, its directly related to tREF, if you already have a high tREF, then dropping this will have minimal effect
+UMA_SIZE=0512 <- Best to just leave this at 512Mb for most use case
