@@ -61,3 +61,21 @@ Now just follow the instruction posted at the end of the script.
 ################################################################
 
 You can swap between these 2 scripts without issues
+
+################################################################
+
+Useful Links:
+
+Complete Guide for the BC-250: https://elektricm.github.io/amd-bc250-docs/
+
+FilippoR's Repo for the Governor used in my script: https://github.com/filippor/cyan-skillfish-governor/tree/tt
+
+Some excellent additinal information on the BC-250: https://github.com/mothenjoyer69/bc250-documentation
+
+A link to the community on Discord pushing the limits of this SBC: https://discord.gg/uDvkhNpxRQ
+
+Link to my YouTube Channel: https://www.youtube.com/@NexGen-3D
+
+Link to my Printables Profile: https://www.printables.com/@NexGen3D
+
+################################################################
