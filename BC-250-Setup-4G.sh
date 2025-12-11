@@ -8,7 +8,7 @@
 # 4️⃣ Append mitigations=off to kernel args (skip if already set)
 # 5️⃣ Create custom 4GB zRAM configuration (skip if file already correct)
 # 6️⃣ Reload systemd daemon
-# 7️⃣ Set vm.swappiness to 90
+# 7️⃣ Set vm.swappiness to 180
 # 8️⃣ Reboot system (just a reminder – the script will NOT reboot)
 # ------------------------------------------------------------------
 set -uo pipefail
@@ -135,9 +135,9 @@ fi
 run_step "${steps[5]}" "sudo systemctl daemon-reload" "$step" "$total"
 ((step++))
 
-# ---------- Step 7 – Set vm.swappiness to 90 ----------------------
+# ---------- Step 7 – Set vm.swappiness to 180 ----------------------
 if swappiness_set; then
-  echo "[${step}/${total}] Set vm.swappiness to 90 ... ✅ (already 90)"
+  echo "[${step}/${total}] Set vm.swappiness to 180 ... ✅ (already 180)"
 else
   run_step "${steps[6]}" "sudo sysctl -w vm.swappiness=90" "$step" "$total"
 fi
