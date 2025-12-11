@@ -31,9 +31,9 @@ This script does the following:
 To install the 4GB script, copy and paste all of these lines into your terminal altogether and hit enter:
 
 mkdir -p ~/NXG3D && \
-curl -L https://raw.githubusercontent.com/NexGen-3D-Printing/SteamMachine/main/BC-250-Setup-4G.sh \
-     -o ~/NXG3D/BC-250-Setup-4G.sh && \
-chmod +x ~/NXG3D/BC-250-Setup-4G.sh && \
+curl -L https://raw.githubusercontent.com/NexGen-3D-Printing/SteamMachine/main/BC-250-Setup-4GB.sh \
+     -o ~/NXG3D/BC-250-Setup-4GB.sh && \
+chmod +x ~/NXG3D/BC-250-Setup-4GB.sh && \
 cd ~/NXG3D
 
 Then copy and paste this command into your terminal and hit enter:
@@ -47,9 +47,9 @@ Now just follow the instruction posted at the end of the script.
 To install the 8GB script, copy and paste all of these lines into your terminal altogether and hit enter:
 
 mkdir -p ~/NXG3D && \
-curl -L https://raw.githubusercontent.com/NexGen-3D-Printing/SteamMachine/main/BC-250-Setup-8G.sh \
-     -o ~/NXG3D/BC-250-Setup-8G.sh && \
-chmod +x ~/NXG3D/BC-250-Setup-8G.sh && \
+curl -L https://raw.githubusercontent.com/NexGen-3D-Printing/SteamMachine/main/BC-250-Setup-8GB.sh \
+     -o ~/NXG3D/BC-250-Setup-8GB.sh && \
+chmod +x ~/NXG3D/BC-250-Setup-8GB.sh && \
 cd ~/NXG3D
 
 Then copy and paste this command into your terminal and hit enter:
