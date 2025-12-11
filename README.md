@@ -28,7 +28,7 @@ This script does the following:
 # Script Installation #
  #####################
 
-To install the 4GB script, copy and paste all of these lines into your terminal altogether and hit enter:
+To install the 4GB (Bazzite default zram amount) script, copy and paste all of these lines into your terminal altogether and hit enter:
 
 mkdir -p ~/NXG3D && \
 curl -L https://raw.githubusercontent.com/NexGen-3D-Printing/SteamMachine/main/BC-250-Setup-4GB.sh \
