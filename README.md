@@ -60,7 +60,7 @@ cd ~/NXG3D
 
 Then copy and paste this command into your terminal and hit enter:
 
-./BC-250-Setup-16GB.sh
+sudo ./BC-250-Setup-16GB.sh
 
 Now just follow the instruction posted at the end of the script.
 
@@ -80,7 +80,7 @@ cd ~/NXG3D
 
 Then copy and paste this command into your terminal and hit enter:
 
-./BC-250-Setup-32GB.sh
+sudo ./BC-250-Setup-32GB.sh
 
 Now just follow the instruction posted at the end of the script.
 
