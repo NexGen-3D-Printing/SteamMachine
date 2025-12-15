@@ -1,8 +1,8 @@
 # SteamMachine
 
- #################################################################
-# Information and fixes for my DIY Steam Machine using the BC-250 #
- #################################################################
+###############################################################
+Information and fixes for my DIY Steam Machine using the BC-250
+###############################################################
 
 Link to my project on Printables: https://www.printables.com/model/1499974-nexgen3d-diy-steam-machine-powered-by-bazzite
 
@@ -23,17 +23,19 @@ What this script does (in order):
    10 Set vm.swappiness = 180 (prefers RAM over swap)
    11 Re‑create empty zram‑generator.conf if it’s missing; delete first if present
 
- #####################
-# Script Installation #
- #####################
+ ###################
+ Script Installation 
+ ###################
 
 To install the script, copy and paste all of these lines into your terminal altogether and hit enter:
+
 
 mkdir -p ~/NXG3D && \
 curl -L https://raw.githubusercontent.com/NexGen-3D-Printing/SteamMachine/main/BC-250-Setup.sh \
      -o ~/NXG3D/BC-250-Setup.sh && \
 chmod +x ~/NXG3D/BC-250-Setup.sh && \
 cd ~/NXG3D
+
 
 Then copy and paste this command into your terminal and hit enter:
 
