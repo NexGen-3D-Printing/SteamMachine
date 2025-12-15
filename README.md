@@ -51,12 +51,10 @@ Blue Pill
 To install the 16GB script, copy and paste all of these lines into your terminal altogether and hit enter:
 
 
-mkdir -p ~/NXG3D && \
-curl -L https://raw.githubusercontent.com/NexGen-3D-Printing/SteamMachine/main/BC-250-Setup-16GB.sh \
-     -o ~/NXG3D/BC-250-Setup-16GB.sh && \
-chmod +x ~/NXG3D/BC-250-Setup-16GB.sh && \
-cd ~/NXG3D
-
+mkdir -p ~/NXG3D &&
+cd ~/NXG3D &&
+wget https://raw.githubusercontent.com/NexGen-3D-Printing/SteamMachine/main/BC-250-Setup-16GB.sh &&
+chmod +x ~/NXG3D/BC-250-Setup-16GB.sh
 
 Then copy and paste this command into your terminal and hit enter:
 
@@ -71,11 +69,10 @@ Red Pill
 To install the 32GB script, copy and paste all of these lines into your terminal altogether and hit enter:
 
 
-mkdir -p ~/NXG3D && \
-curl -L https://raw.githubusercontent.com/NexGen-3D-Printing/SteamMachine/main/BC-250-Setup-32GB.sh \
-     -o ~/NXG3D/BC-250-Setup-32GB.sh && \
-chmod +x ~/NXG3D/BC-250-Setup-32GB.sh && \
-cd ~/NXG3D
+mkdir -p ~/NXG3D &&
+cd ~/NXG3D &&
+wget https://raw.githubusercontent.com/NexGen-3D-Printing/SteamMachine/main/BC-250-Setup-32GB.sh &&
+chmod +x ~/NXG3D/BC-250-Setup-32GB.sh
 
 
 Then copy and paste this command into your terminal and hit enter:
