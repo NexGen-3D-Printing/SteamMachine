@@ -10,19 +10,18 @@ Bazzite optimisation scripts for the BC-250 SBC.
 
 This script does the following:
 
-1 - Enable COPR repo filippor/bazzite (skip if already enabled)
-
-2 - tall cyan‑skillfish‑governor‑tt (Thermal Throttling and Overclocking, will boost to 2230Mhz, and throttle if temps hit 85C automatically)
-
-3 - Stop & disable oberon‑governor (If you have already installed this governor, it will disable it, not remove it, so you can re-enable if you want)
-
-4 - Append cpu mitigations=off to kernel args (This infers you are using this as a Steam Machine game console, if you are using this machine as your primary PC then I recommend not running this script)
-
-5 - Create custom 16GB swapfile configuration and use compression with less CPU overhead (There is a few issues with ram and some games trying to use more that you actually have, this is to assist in reducing these issues)
-
-6 - Reload systemd daemon
-
-7 - Adjust vm.swappiness (This tells the OS to swap to more often to your NVME drive, this is to try and mitigate ram related issues with some titles)
+#  What this script does (in order):
+#    1 Enable the filippor‑bazzite COPR repo
+#    2 If cyan‑skillfish-governor is installed, uninstall it; then install cyan‑skillfish‑governor‑tt via rpm‑ostree
+#    3 Stop & disable oberon‑governor
+#    4 Add ‘mitigations=off’ to GRUB (performance‑only)
+#    5 Reload systemd daemon
+#    6 Create /var/swap sub‑volume (BTRFS)
+#    7 Make a 16 GiB swapfile inside that sub‑volume
+#    8 Add the swapfile to /etc/fstab for persistence
+#    9 Enable rpm‑ostree initramfs features (lz4 + drivers)
+#    10 Set vm.swappiness = 180 (prefers RAM over swap)
+#    11 Re‑create empty zram‑generator.conf if it’s missing; delete first if present
 
  #####################
 # Script Installation #
