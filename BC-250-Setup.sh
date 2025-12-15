@@ -14,7 +14,7 @@
 #    7 Make a 16 GiB swapfile inside that sub‑volume
 #    8 Add the swapfile to /etc/fstab for persistence
 #    9 Enable rpm‑ostree initramfs features (lz4 + drivers)
-#    10 Set vm.swappiness = 180 (prefers RAM over swap)
+#    10 Set vm.swappiness = 180 (prefers swap over ram)
 #    11 Re‑create empty zram‑generator.conf if it’s missing; delete first if present
 #
 # ────────────────────────────────────────────────────────────────
