@@ -16,9 +16,9 @@ This script does the following:
 
 3 - Stop & disable oberon‑governor (If you have already installed this governor, it will disable it, not remove it, so you can re-enable if you want)
 
-4 - Append mitigations=off to kernel args (This infers you are using this as a Steam Machine game console, if you are using this machine as your primary PC then I recommend not running this script)
+4 - Append cpu mitigations=off to kernel args (This infers you are using this as a Steam Machine game console, if you are using this machine as your primary PC then I recommend not running this script)
 
-5 - Create custom zRAM configuration and use compression with less CPU overhead (There is a few issues with ram and some games trying to use more that you actually have, this is to assist in reducing these issues)
+5 - Create custom 16GB swapfile configuration and use compression with less CPU overhead (There is a few issues with ram and some games trying to use more that you actually have, this is to assist in reducing these issues)
 
 6 - Reload systemd daemon
 
@@ -28,39 +28,19 @@ This script does the following:
 # Script Installation #
  #####################
 
-To install the 4GB (Bazzite default zram amount) script, copy and paste all of these lines into your terminal altogether and hit enter:
+To install the script, copy and paste all of these lines into your terminal altogether and hit enter:
 
 mkdir -p ~/NXG3D && \
-curl -L https://raw.githubusercontent.com/NexGen-3D-Printing/SteamMachine/main/BC-250-Setup-4GB.sh \
-     -o ~/NXG3D/BC-250-Setup-4GB.sh && \
-chmod +x ~/NXG3D/BC-250-Setup-4GB.sh && \
+curl -L https://raw.githubusercontent.com/NexGen-3D-Printing/SteamMachine/main/BC-250-Setup.sh \
+     -o ~/NXG3D/BC-250-Setup.sh && \
+chmod +x ~/NXG3D/BC-250-Setup.sh && \
 cd ~/NXG3D
 
 Then copy and paste this command into your terminal and hit enter:
 
-./BC-Setup-4GB.sh
+./BC-Setup.sh
 
 Now just follow the instruction posted at the end of the script.
-
-################################################################
-
-To install the 8GB script, copy and paste all of these lines into your terminal altogether and hit enter:
-
-mkdir -p ~/NXG3D && \
-curl -L https://raw.githubusercontent.com/NexGen-3D-Printing/SteamMachine/main/BC-250-Setup-8GB.sh \
-     -o ~/NXG3D/BC-250-Setup-8GB.sh && \
-chmod +x ~/NXG3D/BC-250-Setup-8GB.sh && \
-cd ~/NXG3D
-
-Then copy and paste this command into your terminal and hit enter:
-
-./BC-Setup-8GB.sh
-
-Now just follow the instruction posted at the end of the script.
-
-################################################################
-
-You can swap between these 2 scripts without issues
 
 ################################################################
 
