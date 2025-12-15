@@ -56,6 +56,25 @@ Now just follow the instruction posted at the end of the script.
 
 ################################################################
 
+
+To install the 32GB script, copy and paste all of these lines into your terminal altogether and hit enter:
+
+
+mkdir -p ~/NXG3D && \
+curl -L https://raw.githubusercontent.com/NexGen-3D-Printing/SteamMachine/main/BC-250-Setup-32GB.sh \
+     -o ~/NXG3D/BC-250-Setup-32GB.sh && \
+chmod +x ~/NXG3D/BC-250-Setup-32GB.sh && \
+cd ~/NXG3D
+
+
+Then copy and paste this command into your terminal and hit enter:
+
+./BC-250-Setup-32GB.sh
+
+Now just follow the instruction posted at the end of the script.
+
+################################################################
+
 Useful Links:
 
 Complete Guide for the BC-250: https://elektricm.github.io/amd-bc250-docs/
