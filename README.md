@@ -34,9 +34,15 @@ What this script does (in order):
 
 11 - Disable zram
 
+
+The only defference between these scripts is the swapfile size, if you have a large NVME storage solution then just go with 32GB, but if you only have a small drive, then wasting 32GB could be a tall order, so use the 16GB script, I haven't done enough testing to see if there is any impact, choose wisely :) do you take the Red Pill, or the Blue Pill.
+ 
+ 
  ###################
  Script Installation 
  ###################
+
+Blue Pill
 
 To install the 16GB script, copy and paste all of these lines into your terminal altogether and hit enter:
 
@@ -56,6 +62,7 @@ Now just follow the instruction posted at the end of the script.
 
 ################################################################
 
+Red Pill
 
 To install the 32GB script, copy and paste all of these lines into your terminal altogether and hit enter:
 
