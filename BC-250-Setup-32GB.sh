@@ -104,7 +104,7 @@ fi
 if systemctl is-active --quiet oberon‑governor.service; then
   echo "[${step}/${total}] ${steps[2]} ... ✅ (already stopped)"
 else
-  run_step "${steps[2]}" "sudo rpm-ostree kargs --append-if-missing="mitigations=off zswap.enabled=1"" "$step" "$total"
+  run_step "${steps[2]}" "sudo systemctl stop oberon‑governor && sudo systemctl disable oberon‑governor" "$step" "$total"
 fi
 ((step++))
 
