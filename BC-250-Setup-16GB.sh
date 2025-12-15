@@ -85,7 +85,7 @@ total=${#steps[@]}   # automatically matches the array length (11)
 if repo_enabled; then
   echo "[${step}/${total}] ${steps[0]} ... ✅ (already enabled)"
 else
-  run_step "${steps[0]}" "sudo dnf config-manager --set-enabled filippor/bazzite" "$step" "$total"
+  run_step "${steps[0]}" "sudo copr enable filippor/bazzite" "$step" "$total"
 fi
 ((step++))
 
