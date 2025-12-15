@@ -113,7 +113,7 @@ if grep -qE 'mitigations=off' /etc/default/grub; then
   echo "[${step}/${total}] ${steps[3]} ... ✅ (already present)"
 else
   run_step "${steps[3]}" \
-    "sudo sed -i 's/GRUB_CMDLINE_LINUX=\"/GRUB_CMDLIN…​E=off /' /etc/default/grub && sudo grub2‑mkconfig -o /boot/grub2/grub.cfg" "$step" "$total"
+    "sudo rpm-ostree kargs --append-if-missing="mitigations=off zswap.enabled=1"" "$step" "$total"
 fi
 ((step++))
 
