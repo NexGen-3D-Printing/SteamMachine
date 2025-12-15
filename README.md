@@ -86,6 +86,32 @@ Now just follow the instruction posted at the end of the script.
 
 ################################################################
 
+Overclocking and Undervolting
+
+To edit the governor, you will find the configuration file here:
+
+/etc/cyan-skillfish-governor-tt/config.toml
+
+Just open and edit with Kate, or if inthe termminal, use Nano.
+
+You can add the following if you want to fully Overclock it:
+
+[[safe-points]]
+frequency = 2230
+voltage = 1055
+
+To under volt, I recommommend just drop 5mc from all safe points from 2050mhz and upwards, if you are having issues with it crashing, try increasing the 2000mhz safe point slowly up to 965mv as 950mv can be a little low for some boards.
+
+To apply ant changes to the config, run this:
+
+systemctl restart --now cyan-skillfish-governor-tt
+
+To check if the governor is running, run this:
+
+systemctl status --now cyan-skillfish-governor-tt
+
+################################################################
+
 Useful Links:
 
 Complete Guide for the BC-250: https://elektricm.github.io/amd-bc250-docs/
