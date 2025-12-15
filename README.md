@@ -38,19 +38,19 @@ What this script does (in order):
  Script Installation 
  ###################
 
-To install the script, copy and paste all of these lines into your terminal altogether and hit enter:
+To install the 16GB script, copy and paste all of these lines into your terminal altogether and hit enter:
 
 
 mkdir -p ~/NXG3D && \
-curl -L https://raw.githubusercontent.com/NexGen-3D-Printing/SteamMachine/main/BC-250-Setup.sh \
-     -o ~/NXG3D/BC-250-Setup.sh && \
-chmod +x ~/NXG3D/BC-250-Setup.sh && \
+curl -L https://raw.githubusercontent.com/NexGen-3D-Printing/SteamMachine/main/BC-250-Setup-16GB.sh \
+     -o ~/NXG3D/BC-250-Setup-16GB.sh && \
+chmod +x ~/NXG3D/BC-250-Setup-16GB.sh && \
 cd ~/NXG3D
 
 
 Then copy and paste this command into your terminal and hit enter:
 
-./BC-Setup.sh
+./BC-250-Setup-16GB.sh
 
 Now just follow the instruction posted at the end of the script.
 
