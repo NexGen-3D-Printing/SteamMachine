@@ -1,7 +1,9 @@
 # SteamMachine
 
 ###############################################################
+
 Information and fixes for my DIY Steam Machine using the BC-250
+
 ###############################################################
 
 Link to my project on Printables: https://www.printables.com/model/1499974-nexgen3d-diy-steam-machine-powered-by-bazzite
@@ -38,9 +40,11 @@ What this script does (in order):
 The only defference between these scripts is the swapfile size, if you have a large NVME storage solution then just go with 32GB, but if you only have a small drive, then wasting 32GB could be a tall order, so use the 16GB script, I haven't done enough testing to see if there is any impact, choose wisely :) do you take the Red Pill, or the Blue Pill.
  
  
- ###################
- Script Installation 
- ###################
+###################
+ 
+Script Installation 
+ 
+###################
 
 Blue Pill
 
