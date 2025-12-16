@@ -37,9 +37,7 @@ Script Installation
 
 Blue Pill
 
-To install the 16GB script, copy and paste all of these lines into your terminal altogether and hit enter:
-
-
+* To install the 16GB script, copy and paste all of these lines into your terminal altogether and hit enter:
 
 ```console
 mkdir -p ~/NXG3D &&
@@ -48,18 +46,18 @@ wget https://raw.githubusercontent.com/NexGen-3D-Printing/SteamMachine/main/Setu
 chmod +x ~/NXG3D/Setup-16GB.sh
 ```
 
-Then copy and paste this command into your terminal and hit enter:
+* Then copy and paste this command into your terminal and hit enter:
 
 ```console
 sudo ./Setup-16GB.sh
 ```
 
-Now just follow the instruction posted at the end of the script.
+
 
 
 Red Pill
 
-To install the 32GB script, copy and paste all of these lines into your terminal altogether and hit enter:
+* To install the 32GB script, copy and paste all of these lines into your terminal altogether and hit enter:
 
 ```console
 mkdir -p ~/NXG3D &&
@@ -68,20 +66,21 @@ wget https://raw.githubusercontent.com/NexGen-3D-Printing/SteamMachine/main/Setu
 chmod +x ~/NXG3D/Setup-32GB.sh
 ```
 
-Then copy and paste this command into your terminal and hit enter:
+* Then copy and paste this command into your terminal and hit enter:
 
 ```console
 sudo ./Setup-32GB.sh
 ```
 
-Now just follow the instruction posted at the end of the script.
 
 
 Overclocking and Undervolting
 
 To edit the governor, you will find the configuration file here:
 
+```console
 /etc/cyan-skillfish-governor-tt/config.toml
+```
 
 Just open and edit with Kate, or if inthe termminal, use Nano.
 
@@ -91,17 +90,17 @@ You can add the following if you want to fully Overclock it:
 frequency = 2230
 voltage = 1055
 
-To under volt, I recommommend just drop 5mc from all safe points from 2050mhz and upwards, if you are having issues with it crashing, try increasing the 2000mhz safe point slowly up to 965mv as 950mv can be a little low for some boards.
+* To under volt, I recommommend just drop 5mc from all safe points from 2050mhz and upwards, if you are having issues with it crashing, try increasing the 2000mhz safe point slowly up to 965mv as 950mv can be a little low for some boards.
 
-To apply ant changes to the config, run this:
+* To apply ant changes to the config, run this:
 
+```console
 systemctl restart --now cyan-skillfish-governor-tt
+```
 
 To check if the governor is running, run this:
 
 systemctl status --now cyan-skillfish-governor-tt
-
-################################################################
 
 Useful Links:
 
@@ -117,4 +116,3 @@ Link to my YouTube Channel: https://www.youtube.com/@NexGen-3D
 
 Link to my Printables Profile: https://www.printables.com/@NexGen3D
 
-################################################################
