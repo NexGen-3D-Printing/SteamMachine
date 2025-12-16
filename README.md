@@ -40,11 +40,13 @@ Blue Pill
 To install the 16GB script, copy and paste all of these lines into your terminal altogether and hit enter:
 
 
+
+```console
 mkdir -p ~/NXG3D &&
 cd ~/NXG3D &&
 wget https://raw.githubusercontent.com/NexGen-3D-Printing/SteamMachine/main/Setup-16GB.sh &&
 chmod +x ~/NXG3D/Setup-16GB.sh
-
+```
 Then copy and paste this command into your terminal and hit enter:
 
 sudo ./Setup-16GB.sh
