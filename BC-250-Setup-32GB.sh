@@ -83,7 +83,7 @@ total=${#steps[@]}   # automatically matches the array length (11)
 
 # ---------- Step 1 – Enable COPR repo --------------------------------
 run_step "${steps[0]}" \
-  "sudo copr enable filippor/bazzite" "$step" "$total"
+  "sudo copr enable filippor/bazzite" "$step" "$total" <<< y
 
 # ---------- Step 2 – Uninstall & install cyan‑skillfish‑governor‑tt --------------------
 run_step "${steps[1]}" \
