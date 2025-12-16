@@ -1,36 +1,28 @@
 # SteamMachine
 
-###############################################################
-
 Information and fixes for my DIY Steam Machine using the BC-250
 
-###############################################################
 
 Link to my project on Printables: https://www.printables.com/model/1499974-nexgen3d-diy-steam-machine-powered-by-bazzite
+
 
 Bazzite optimisation scripts for the BC-250 SBC.
 
 This script does the following:
 
-What this script does (in order):
+What this script does:
 
 1 - Enable the filippor‑bazzite COPR repo
 
-2 - If cyan‑skillfish-governor is installed, uninstall it; then install cyan‑skillfish‑governor‑tt via rpm‑ostree
+2 - Install cyan‑skillfish-governor-tt
 
-3 - Stop & disable oberon‑governor
+3 - Stop & disable oberon‑governor and standard cyan-skillfish-governor
 
-4 - Add ‘mitigations=off’ to GRUB (performance‑only)
+4 - Disable cpu mitigations and enable zswap
 
-5 - Reload systemd daemon
+5 - Create a swapfile (16GB or 32GB Depending on script of choice)
 
-6 - Create /var/swap sub‑volume (BTRFS)
-
-7 - Make a 16 GiB swapfile inside that sub‑volume
-
-8 - Add the swapfile to /etc/fstab for persistence
-
-9 - Enable rpm‑ostree initramfs features (lz4 + drivers)
+9 - Enable lighter swap compression (lz4)
 
 10 - Set vm.swappiness = 180
 
@@ -53,12 +45,12 @@ To install the 16GB script, copy and paste all of these lines into your terminal
 
 mkdir -p ~/NXG3D &&
 cd ~/NXG3D &&
-wget https://raw.githubusercontent.com/NexGen-3D-Printing/SteamMachine/main/BC-250-Setup-16GB.sh &&
-chmod +x ~/NXG3D/BC-250-Setup-16GB.sh
+wget https://raw.githubusercontent.com/NexGen-3D-Printing/SteamMachine/main/Setup-16GB.sh &&
+chmod +x ~/NXG3D/Setup-16GB.sh
 
 Then copy and paste this command into your terminal and hit enter:
 
-sudo ./BC-250-Setup-16GB.sh
+sudo ./Setup-16GB.sh
 
 Now just follow the instruction posted at the end of the script.
 
@@ -71,13 +63,13 @@ To install the 32GB script, copy and paste all of these lines into your terminal
 
 mkdir -p ~/NXG3D &&
 cd ~/NXG3D &&
-wget https://raw.githubusercontent.com/NexGen-3D-Printing/SteamMachine/main/BC-250-Setup-32GB.sh &&
-chmod +x ~/NXG3D/BC-250-Setup-32GB.sh
+wget https://raw.githubusercontent.com/NexGen-3D-Printing/SteamMachine/main/Setup-32GB.sh &&
+chmod +x ~/NXG3D/Setup-32GB.sh
 
 
 Then copy and paste this command into your terminal and hit enter:
 
-sudo ./BC-250-Setup-32GB.sh
+sudo ./Setup-32GB.sh
 
 Now just follow the instruction posted at the end of the script.
 
