@@ -67,7 +67,7 @@ steps=(
   "Enable the filippor‑bazzite COPR repo"
   "Install cyan‑skillfish-governor-tt"
   "Stop & disable oberon‑governor"
-  "Add ‘mitigations=off’ to GRUB"
+  "Add ‘CPU mitigations and zswap’ to GRUB"
   "Reload systemd daemon"
   "Create /var/swap sub‑volume"
   "Create swapfile in /var/swap"
