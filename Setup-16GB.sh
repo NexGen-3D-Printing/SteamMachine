@@ -18,6 +18,8 @@
 
 sudo copr enable filippor/bazzite <<< y 2>/dev/null || true &&
 rpm-ostree upgrade uninstall install cyan-skillfish-governor-tt 2>/dev/null || true &&
+systemctl enable cyan-skillfish-governor-tt 2>/dev/null || true &&
+systemctl start cyan-skillfish-governor-tt 2>/dev/null || true &&
 systemctl stop cyan-skillfish-governor 2>/dev/null || true &&
 systemctl disable cyan-skillfish-governor 2>/dev/null || true &&
 systemctl stop oberon‑governor 2>/dev/null || true &&
