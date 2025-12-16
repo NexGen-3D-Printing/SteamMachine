@@ -87,7 +87,8 @@ run_step "${steps[0]}" \
 
 # ---------- Step 2 – Uninstall & install cyan‑skillfish‑governor‑tt --------------------
 run_step "${steps[1]}" \
-  "rpm-ostree install cyan‑skillfish‑governor‑tt" "$step" "$total"
+  "rpm-ostree install cyan‑skillfish‑governor‑tt && \\
+   systemctl enable --now cyan-skillfish-governor-tt" "$step" "$total"
 
 # ---------- Step 3 – Stop & disable oberon‑governor -----------------
 run_step "${steps[2]}" \
