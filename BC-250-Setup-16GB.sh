@@ -95,7 +95,7 @@ run_step "${steps[2]}" \
 
 # ---------- Step 4 – Append mitigations=off ------------------------
 run_step "${steps[3]}" \
-  "sudo rpm-ostree kargs --append-if-missing="mitigations=off zswap.enabled=1"" "$step" "$total"
+  'sudo rpm-ostree kargs --append-if-missing="mitigations=off zswap.enabled=1"' "$step" "$total"
 
 # ---------- Step 5 – Reload systemd daemon -------------------------
 run_step "${steps[4]}" "sudo systemctl daemon-reload" "$step" "$total"
