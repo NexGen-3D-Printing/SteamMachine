@@ -47,9 +47,12 @@ cd ~/NXG3D &&
 wget https://raw.githubusercontent.com/NexGen-3D-Printing/SteamMachine/main/Setup-16GB.sh &&
 chmod +x ~/NXG3D/Setup-16GB.sh
 ```
+
 Then copy and paste this command into your terminal and hit enter:
 
+```console
 sudo ./Setup-16GB.sh
+```
 
 Now just follow the instruction posted at the end of the script.
 
@@ -58,16 +61,18 @@ Red Pill
 
 To install the 32GB script, copy and paste all of these lines into your terminal altogether and hit enter:
 
-
+```console
 mkdir -p ~/NXG3D &&
 cd ~/NXG3D &&
 wget https://raw.githubusercontent.com/NexGen-3D-Printing/SteamMachine/main/Setup-32GB.sh &&
 chmod +x ~/NXG3D/Setup-32GB.sh
-
+```
 
 Then copy and paste this command into your terminal and hit enter:
 
+```console
 sudo ./Setup-32GB.sh
+```
 
 Now just follow the instruction posted at the end of the script.
 
