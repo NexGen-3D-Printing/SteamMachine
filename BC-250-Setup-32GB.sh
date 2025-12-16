@@ -86,9 +86,7 @@ run_step "${steps[0]}" \
   "sudo copr enable filippor/bazzite" "$step" "$total" <<< y
 
 # ---------- Step 2 – Uninstall & install cyan‑skillfish‑governor‑tt --------------------
-run_step "${steps[1]}" \
-  "rpm-ostree install cyan‑skillfish‑governor‑tt && \\
-   systemctl enable --now cyan-skillfish-governor-tt" "$step" "$total"
+run_step "${steps[1]}" "rpm-ostree install cyan‑skillfish‑governor‑tt" "$step" "$total"
 
 # ---------- Step 3 – Stop & disable oberon‑governor -----------------
 run_step "${steps[2]}" \
