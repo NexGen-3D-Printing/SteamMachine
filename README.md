@@ -1,12 +1,12 @@
 # NXG3D DIY SteamMachine
 
-Information and fixes for my DIY Steam Machine using the BC-250
+### Information and fixes for my DIY Steam Machine using the BC-250
 
 
-Link to my project on Printables: https://www.printables.com/model/1499974-nexgen3d-diy-steam-machine-powered-by-bazzite
+#### Link to my project on Printables: https://www.printables.com/model/1499974-nexgen3d-diy-steam-machine-powered-by-bazzite
 
 
-Bazzite optimisation scripts for the BC-250 SBC.
+#### Bazzite optimisation scripts for the BC-250 SBC
 
 This script does the following:
 
@@ -35,7 +35,7 @@ The only defference between these scripts is the swapfile size, if you have a la
 Script Installation 
 
 
-Blue Pill
+Blue Pill:
 
 * To install the 16GB script, copy and paste all of these lines into your terminal altogether and hit enter:
 
@@ -55,7 +55,7 @@ sudo ./Setup-16GB.sh
 
 
 
-Red Pill
+Red Pill:
 
 * To install the 32GB script, copy and paste all of these lines into your terminal altogether and hit enter:
 
@@ -76,15 +76,15 @@ sudo ./Setup-32GB.sh
 
 Overclocking and Undervolting
 
-To edit the governor, you will find the configuration file here:
+* To edit the governor, you will find the configuration file here:
 
 ```console
 /etc/cyan-skillfish-governor-tt/config.toml
 ```
 
-Just open and edit with Kate, or if inthe termminal, use Nano.
+* Just open and edit with Kate, or if inthe termminal, use Nano.
 
-You can add the following if you want to fully Overclock it:
+* You can add the following if you want to fully Overclock it:
 
 [[safe-points]]
 frequency = 2230
@@ -98,21 +98,23 @@ voltage = 1055
 systemctl restart --now cyan-skillfish-governor-tt
 ```
 
-To check if the governor is running, run this:
+* To check if the governor is running, run this:
 
+```console
 systemctl status --now cyan-skillfish-governor-tt
+```
 
 Useful Links:
 
-Complete Guide for the BC-250: https://elektricm.github.io/amd-bc250-docs/
+* Complete Guide for the BC-250: https://elektricm.github.io/amd-bc250-docs/
 
-FilippoR's Repo for the Governor used in my script: https://github.com/filippor/cyan-skillfish-governor/tree/tt
+* FilippoR's Repo for the Governor used in my script: https://github.com/filippor/cyan-skillfish-governor/tree/tt
 
-Some excellent additinal information on the BC-250: https://github.com/mothenjoyer69/bc250-documentation
+* Some excellent additinal information on the BC-250: https://github.com/mothenjoyer69/bc250-documentation
 
-A link to the community on Discord pushing the limits of this SBC: https://discord.gg/uDvkhNpxRQ
+* A link to the community on Discord pushing the limits of this SBC: https://discord.gg/uDvkhNpxRQ
 
-Link to my YouTube Channel: https://www.youtube.com/@NexGen-3D
+* Link to my YouTube Channel: https://www.youtube.com/@NexGen-3D
 
-Link to my Printables Profile: https://www.printables.com/@NexGen3D
+* Link to my Printables Profile: https://www.printables.com/@NexGen3D
 
