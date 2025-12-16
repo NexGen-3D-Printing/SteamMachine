@@ -65,7 +65,7 @@ package_installed() { rpm -q "$1" &>/dev/null; }
 # ---------- Step descriptions ------------------------------------
 steps=(
   "Enable the filippor‑bazzite COPR repo"
-  "If cyan‑skillfish-governor is installed, uninstall it; then install cyan‑skillfish‑governor‑tt via rpm‑ostree"
+  "Install cyan‑skillfish-governor-tt"
   "Stop & disable oberon‑governor"
   "Add ‘mitigations=off’ to GRUB"
   "Reload systemd daemon"
@@ -87,7 +87,7 @@ run_step "${steps[0]}" \
 
 # ---------- Step 2 – Uninstall & install cyan‑skillfish‑governor‑tt --------------------
 run_step "${steps[1]}" \
-  "sudo rpm-ostree uninstall cyan‑skillfish-governor && sudo rpm-ostree install cyan‑skillfish‑governor‑tt" "$step" "$total"
+  "sudo rpm-ostree remove cyan‑skillfish-governor && sudo rpm-ostree install cyan‑skillfish‑governor‑tt" "$step" "$total"
 
 # ---------- Step 3 – Stop & disable oberon‑governor -----------------
 run_step "${steps[2]}" \
