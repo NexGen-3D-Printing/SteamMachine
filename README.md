@@ -82,9 +82,7 @@ sudo ./Setup-32GB.sh
 
 ```console
 [[safe-points]]
-
 frequency = 2230
-
 voltage = 1055
 ```
 
