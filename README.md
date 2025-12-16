@@ -22,11 +22,11 @@ What this script does:
 
 5 - Create a swapfile (16GB or 32GB Depending on script of choice)
 
-9 - Enable lighter swap compression (lz4)
+6 - Enable lighter swap compression (lz4)
 
-10 - Set vm.swappiness = 180
+7 - Set vm.swappiness = 180
 
-11 - Disable zram
+8 - Disable zram
 
 
 The only defference between these scripts is the swapfile size, if you have a large NVME storage solution then just go with 32GB, but if you only have a small drive, then wasting 32GB could be a tall order, so use the 16GB script, I haven't done enough testing to see if there is any impact, choose wisely :) do you take the Red Pill, or the Blue Pill.
