@@ -1,4 +1,4 @@
-# SteamMachine
+# NXG3D DIY SteamMachine
 
 Information and fixes for my DIY Steam Machine using the BC-250
 
@@ -32,11 +32,8 @@ What this script does:
 The only defference between these scripts is the swapfile size, if you have a large NVME storage solution then just go with 32GB, but if you only have a small drive, then wasting 32GB could be a tall order, so use the 16GB script, I haven't done enough testing to see if there is any impact, choose wisely :) do you take the Red Pill, or the Blue Pill.
  
  
-###################
- 
 Script Installation 
- 
-###################
+
 
 Blue Pill
 
@@ -54,7 +51,6 @@ sudo ./Setup-16GB.sh
 
 Now just follow the instruction posted at the end of the script.
 
-################################################################
 
 Red Pill
 
@@ -73,7 +69,6 @@ sudo ./Setup-32GB.sh
 
 Now just follow the instruction posted at the end of the script.
 
-################################################################
 
 Overclocking and Undervolting
 
