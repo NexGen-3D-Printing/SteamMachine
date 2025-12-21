@@ -122,4 +122,4 @@ systemctl status --now cyan-skillfish-governor-tt
 
 * Link to my Printables Profile: https://www.printables.com/@NexGen3D
 
-(https://hits.dwyl.com/NexGen-3D-Printing/SteamMachine/tree/main.svg?style=flat-square)
+https://hits.dwyl.com/NexGen-3D-Printing/SteamMachine/tree/main.svg
