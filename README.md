@@ -52,7 +52,7 @@ sudo su
 * Then this one:
 
 ```console
-sudo ./Setup-16GB.sh
+./Setup-16GB.sh
 ```
 
 ### Red Pill:
@@ -74,7 +74,7 @@ sudo su
 * Then this one:
 
 ```console
-sudo ./Setup-32GB.sh
+./Setup-32GB.sh
 ```
 ## Overclocking and Undervolting
 
