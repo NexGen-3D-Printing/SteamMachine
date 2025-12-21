@@ -1,7 +1,5 @@
 # NXG3D DIY SteamMachine
 
-image_url=f"https://media.printables.com/media/prints/63db2dd7-16ec-4e36-825f-84bb106f8e86/images/11465938_d6cb7e41-d795-4b17-8cbf-1765b510f64a_5dc0c266-75cb-45dc-8085-38a04bd003b8/thumbs/inside/1600x1200/jpg/img_20251220_122556_509.webp"
-
 ## Information and fixes for my DIY Steam Machine using the BC-250
 
 ## Link to my project on Printables: https://www.printables.com/model/1499974-nexgen3d-diy-steam-machine-powered-by-bazzite
