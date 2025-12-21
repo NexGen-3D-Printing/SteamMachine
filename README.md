@@ -1,5 +1,11 @@
 # NXG3D DIY SteamMachine
 
+
+
+[![](https://github.com/NexGen-3D-Printing/SteamMachine/blob/main/Main_Image.jpg)]([https://github.com/NexGen-3D-Printing/NXG-3D3/blob/main/Images/No%20Panels.png](https://github.com/NexGen-3D-Printing/SteamMachine/blob/main/Main_Image.jpg))
+
+https://github.com/NexGen-3D-Printing/SteamMachine/blob/main/Main_Image.jpg
+
 ## Information and fixes for my DIY Steam Machine using the BC-250
 
 ## Link to my project on Printables: https://www.printables.com/model/1499974-nexgen3d-diy-steam-machine-powered-by-bazzite
