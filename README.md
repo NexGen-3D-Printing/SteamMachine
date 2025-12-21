@@ -47,9 +47,13 @@ chmod +x ~/NXG3D/Setup-16GB.sh
 * Then copy and paste this command into your terminal and hit enter:
 
 ```console
+sudo su
+```
+* Then this one:
+
+```console
 sudo ./Setup-16GB.sh
 ```
-
 
 ### Red Pill:
 
@@ -65,9 +69,13 @@ chmod +x ~/NXG3D/Setup-32GB.sh
 * Then copy and paste this command into your terminal and hit enter:
 
 ```console
+sudo su
+```
+* Then this one:
+
+```console
 sudo ./Setup-32GB.sh
 ```
-
 ## Overclocking and Undervolting
 
 * To edit the governor, you will find the configuration file here:
