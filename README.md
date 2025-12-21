@@ -1,7 +1,5 @@
 # NXG3D DIY SteamMachine
 
-[![HitCount](https://hits.dwyl.com/NexGen-3D-Printing/SteamMachine.svg?style=flat-square)](http://hits.dwyl.com/NexGen-3D-Printing/SteamMachine)
-
 ## Information and fixes for my DIY Steam Machine using the BC-250
 
 ## Link to my project on Printables: https://www.printables.com/model/1499974-nexgen3d-diy-steam-machine-powered-by-bazzite
@@ -123,3 +121,5 @@ systemctl status --now cyan-skillfish-governor-tt
 * Link to my YouTube Channel: https://www.youtube.com/@NexGen-3D
 
 * Link to my Printables Profile: https://www.printables.com/@NexGen3D
+
+[![HitCount](https://hits.dwyl.com/NexGen-3D-Printing/SteamMachine.svg?style=flat-square)](http://hits.dwyl.com/NexGen-3D-Printing/SteamMachine)
