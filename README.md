@@ -3,7 +3,7 @@
 
 [![](https://github.com/NexGen-3D-Printing/SteamMachine/blob/main/Main_Image.jpg)]([https://github.com/NexGen-3D-Printing/SteamMachine/blob/main/Main_Image.jpg)
 
-## Information and fixes for my DIY Steam Machine using the BC-250
+## <p align="center"> Information and fixes for my DIY Steam Machine using the BC-250 </p>
 
 ## Link to my project on Printables: https://www.printables.com/model/1499974-nexgen3d-diy-steam-machine-powered-by-bazzite
 
