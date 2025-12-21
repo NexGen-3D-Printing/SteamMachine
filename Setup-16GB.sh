@@ -18,7 +18,7 @@
 systemctl disable --now cyan-skillfish-governor 2>/dev/null || true &&
 systemctl disable --now oberon‑governor 2>/dev/null || true &&
 sudo copr enable filippor/bazzite <<< y 2>/dev/null || true &&
-rpm-ostree upgrade uninstall install cyan-skillfish-governor-tt 2>/dev/null || true &&
+rpm-ostree install cyan-skillfish-governor-tt 2>/dev/null || true &&
 systemctl enable --now cyan-skillfish-governor-tt 2>/dev/null || true &&
 rpm-ostree kargs --append-if-missing=mitigations=off 2>/dev/null || true &&
 rpm-ostree kargs --append-if-missing=zswap.enabled=1 2>/dev/null || true &&
