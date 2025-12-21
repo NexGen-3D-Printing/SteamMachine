@@ -1,5 +1,5 @@
-# NexGen3D DIY Steam Machine - (BC-250)
-<p align="center">⚡ # NexGen3D DIY Steam Machine - (BC-250) ⚡</p>
+
+# <p align="center">⚡ NexGen3D DIY Steam Machine - (BC-250) ⚡</p>
 
 [![](https://github.com/NexGen-3D-Printing/SteamMachine/blob/main/Main_Image.jpg)]([https://github.com/NexGen-3D-Printing/SteamMachine/blob/main/Main_Image.jpg)
 
