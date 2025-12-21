@@ -5,7 +5,7 @@
 
 ## <p align="center"> Information and fixes for my DIY Steam Machine using the BC-250 </p>
 
-## Link to my project on Printables: https://www.printables.com/model/1499974-nexgen3d-diy-steam-machine-powered-by-bazzite
+### Link to my project on Printables: https://www.printables.com/model/1499974-nexgen3d-diy-steam-machine-powered-by-bazzite
 
 ### Bazzite optimisation scripts for the BC-250 SBC
 
