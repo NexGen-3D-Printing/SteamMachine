@@ -118,6 +118,8 @@ systemctl status --now cyan-skillfish-governor-tt
 
 * A link to the community on Discord pushing the limits of this SBC: https://discord.gg/uDvkhNpxRQ
 
+[![HitCount](https://hits.dwyl.com/NexGen-3D-Printing/SteamMachine/tree/main.svg?style=flat-square)](http://hits.dwyl.com/NexGen-3D-Printing/SteamMachine/tree/main)
+
 * Link to my YouTube Channel: https://www.youtube.com/@NexGen-3D
 
 * Link to my Printables Profile: https://www.printables.com/@NexGen3D
