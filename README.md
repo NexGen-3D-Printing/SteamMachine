@@ -2,7 +2,7 @@
 
 
 
-[![](https://github.com/NexGen-3D-Printing/SteamMachine/blob/main/Main_Image.jpg)]([https://github.com/NexGen-3D-Printing/NXG-3D3/blob/main/Images/No%20Panels.png](https://github.com/NexGen-3D-Printing/SteamMachine/blob/main/Main_Image.jpg))
+[![](https://github.com/NexGen-3D-Printing/SteamMachine/blob/main/Main_Image.jpg)](https://github.com/NexGen-3D-Printing/SteamMachine/blob/main/Main_Image.jpg))
 
 https://github.com/NexGen-3D-Printing/SteamMachine/blob/main/Main_Image.jpg
 
