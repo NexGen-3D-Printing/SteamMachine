@@ -102,13 +102,13 @@ voltage = 1055
 * To apply ant changes to the config, run this:
 
 ```console
-systemctl restart --now cyan-skillfish-governor-tt
+systemctl restart cyan-skillfish-governor-tt
 ```
 
 * To check if the governor is running, run this:
 
 ```console
-systemctl status --now cyan-skillfish-governor-tt
+systemctl status cyan-skillfish-governor-tt
 ```
 
 ## Useful Links:
