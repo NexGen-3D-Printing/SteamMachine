@@ -8,7 +8,7 @@
 ## <p align="center"> Information and fixes for my DIY Steam Machine using the BC-250 </p>
 
 
-Links:
+#### Links:
 
 * My project on Printables: https://www.printables.com/model/1499974-nexgen3d-diy-steam-machine-powered-by-bazzite
 
@@ -17,11 +17,7 @@ Links:
 * If you would like to purchase one of my Steam Machine cases professionally printed: https://www.etsy.com/listing/4433157329/bc-250-case-by-nexgen3d
 
 
-### Bazzite optimisation scripts for the BC-250 SBC
-
-### This script does the following:
-
-### What this script does:
+#### Bazzite optimisation scripts for the BC-250 SBC does the following:
 
 * Enable the filippor‑bazzite COPR repo
 
