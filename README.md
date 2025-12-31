@@ -14,7 +14,7 @@ Links:
 
 * If you would like to donate or tip me for my work: https://ko-fi.com/nexgen3d
 
-* If you would like to purchase one of my Steam Machine cases profewssionally printed: https://www.etsy.com/listing/4433157329/bc-250-case-by-nexgen3d
+* If you would like to purchase one of my Steam Machine cases professionally printed: https://www.etsy.com/listing/4433157329/bc-250-case-by-nexgen3d
 
 
 ### Bazzite optimisation scripts for the BC-250 SBC
