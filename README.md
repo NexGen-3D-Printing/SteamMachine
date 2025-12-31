@@ -17,7 +17,7 @@
 * If you would like to purchase one of my Steam Machine cases professionally printed: https://www.etsy.com/listing/4433157329/bc-250-case-by-nexgen3d
 
 
-#### Bazzite optimisation scripts for the BC-250 SBC does the following:
+#### This Bazzite optimisation script for the BC-250 SBC does the following:
 
 * Enable the filippor‑bazzite COPR repo
 
