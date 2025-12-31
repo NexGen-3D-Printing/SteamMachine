@@ -7,11 +7,15 @@
 
 ## <p align="center"> Information and fixes for my DIY Steam Machine using the BC-250 </p>
 
-### Link to my project on Printables: https://www.printables.com/model/1499974-nexgen3d-diy-steam-machine-powered-by-bazzite
 
-### If you would like to donate or tip me for my work: https://ko-fi.com/nexgen3d
+Links:
 
-### If you would like to purchase one of my Steam Machine cases profewssionally printed: https://www.etsy.com/listing/4433157329/bc-250-case-by-nexgen3d
+* My project on Printables: https://www.printables.com/model/1499974-nexgen3d-diy-steam-machine-powered-by-bazzite
+
+* If you would like to donate or tip me for my work: https://ko-fi.com/nexgen3d
+
+* If you would like to purchase one of my Steam Machine cases profewssionally printed: https://www.etsy.com/listing/4433157329/bc-250-case-by-nexgen3d
+
 
 ### Bazzite optimisation scripts for the BC-250 SBC
 
