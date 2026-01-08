@@ -1,0 +1,10 @@
+git clone https://github.com/bc250-collective/bc250-acpi-fix.git
+cd bc250-acpi-fix/
+mkdir -p /tmp/acpi_tables/kernel/firmware/acpi
+cp *.aml /tmp/acpi_tables/kernel/firmware/acpi/.
+cd /tmp/acpi_tables
+find kernel | cpio -H newc --create > SSDT_ACPI.cpio
+sudo cp SSDT_ACPI.cpio /boot/.
+echo 'GRUB_EARLY_INITRD_LINUX_CUSTOM="../../SSDT_ACPI.cpio"' | sudo tee -a /etc/default/grub
+ujust regenerate-grub
+systemctl reboot
