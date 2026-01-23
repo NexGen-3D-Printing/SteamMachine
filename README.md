@@ -23,7 +23,7 @@
 
 * Enable the filippor‑bazzite COPR repo
 
-* Install cyan‑skillfish-governor-tt
+* Install cyan‑skillfish-governor-smu (Enhanced Overclocking Version)
 
 * Stop & disable oberon‑governor and standard cyan-skillfish-governor
 
@@ -92,17 +92,29 @@ sudo su
 * To edit the governor, you will find the configuration file here:
 
 ```console
-/etc/cyan-skillfish-governor-tt/config.toml
+/etc/cyan-skillfish-governor-smu/config.toml
 ```
 
 * Just open and edit with Kate, or if inthe termminal, use Nano.
 
-* You can add the following if you want to fully Overclock it:
+* You can add the following if you want to Overclock it, after adding these, you are best to test out your thermals with Furmark:
 
 ```console
 [[safe-points]]
-frequency = 2230
-voltage = 1055
+frequency = 2250
+voltage = 1050
+
+[[safe-points]]
+frequency = 2300
+voltage = 1075
+
+[[safe-points]]
+frequency = 2350
+voltage = 1100
+
+[[safe-points]]
+frequency = 2400
+voltage = 1125
 ```
 
 * To under volt, I recommommend just drop 5mc from all safe points from 2050mhz and upwards, if you are having issues with it crashing, try increasing the 2000mhz safe point slowly up to 965mv as 950mv can be a little low for some boards.
@@ -110,20 +122,20 @@ voltage = 1055
 * To apply ant changes to the config, run this:
 
 ```console
-systemctl restart cyan-skillfish-governor-tt
+systemctl restart cyan-skillfish-governor-smu
 ```
 
 * To check if the governor is running, run this:
 
 ```console
-systemctl status cyan-skillfish-governor-tt
+systemctl status cyan-skillfish-governor-smu
 ```
 
 ## Useful Links:
 
 * Complete Guide for the BC-250: https://elektricm.github.io/amd-bc250-docs/
 
-* FilippoR's Repo for the Governor used in my script: https://github.com/filippor/cyan-skillfish-governor/tree/tt
+* FilippoR's Repo for the Governor used in my script: https://github.com/filippor/cyan-skillfish-governor/tree/smu
 
 * Some excellent additinal information on the BC-250: https://github.com/mothenjoyer69/bc250-documentation
 
