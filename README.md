@@ -125,7 +125,7 @@ systemctl enable --now cyan-skillfish-governor-smu
 /etc/cyan-skillfish-governor-smu/config.toml
 ```
 
-* Just open and edit with Kate, or if inthe termminal, use Nano.
+* Just open and edit with Kate, or if in the termminal, use Nano.
 
 * You can add the following if you want to Overclock it, after adding these, you are best to test out your thermals with Furmark:
 
