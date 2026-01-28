@@ -22,7 +22,6 @@ sudo copr enable filippor/bazzite <<< y 2>/dev/null || true &&
 sudo rpm-ostree cleanup -m 2>/dev/null || true &&
 sudo rpm-ostree refresh-md 2>/dev/null || true &&
 rpm-ostree install cyan-skillfish-governor-smu 2>/dev/null || true &&
-systemctl enable --now cyan-skillfish-governor-smu 2>/dev/null || true &&
 rpm-ostree kargs --append-if-missing=mitigations=off 2>/dev/null || true &&
 rpm-ostree kargs --append-if-missing=zswap.enabled=1 2>/dev/null || true &&
 rpm-ostree kargs --append-if-missing=zswap.max_pool_percent=25 2>/dev/null || true &&
@@ -43,3 +42,5 @@ sudo echo 'vm.swappiness = 180' | sudo tee /etc/sysctl.d/99-swappiness.conf || t
 rpm-ostree initramfs --enable --arg=--add-drivers --arg=lz4 || true
 echo "Setup Complete"
 echo "Please reboot your system using the following command: systemctl reboot"
+echo "After the system has rebooted, if you wish to enable GPU overclocking, then run the following command in the terminal: systemctl enable --now cyan-skillfish-governor-smu"
+echo "CAUTION -> Overclocking the GPU can cause increased system heat and system instability"
