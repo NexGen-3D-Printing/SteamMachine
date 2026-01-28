@@ -66,13 +66,19 @@ sudo su
 ./Setup-16GB.sh
 ```
 
-* After the system has rebooted, if you wish to enable GPU overclocking, then run the following command in the terminal:
+* After the system has rebooted, if you wish to test GPU overclocking, then run the following command in the terminal:
+
+```console
+systemctl start cyan-skillfish-governor-smu
+```
+
+* CAUTION -> Overclocking the GPU can cause increased system heat and system instability
+
+* Once you have tested overclocking using tools like Furmark and Unigine Superpostion, and are satisfied with system stability, then run the following to enable GPU overclocking permanently:
 
 ```console
 systemctl enable --now cyan-skillfish-governor-smu
 ```
-
-* CAUTION -> Overclocking the GPU can cause increased system heat and system instability
 
 ### Red Pill:
 
@@ -96,13 +102,19 @@ sudo su
 ./Setup-32GB.sh
 ```
 
-* After the system has rebooted, if you wish to enable GPU overclocking, then run the following command in the terminal:
+* After the system has rebooted, if you wish to test GPU overclocking, then run the following command in the terminal:
+
+```console
+systemctl start cyan-skillfish-governor-smu
+```
+
+* CAUTION -> Overclocking the GPU can cause increased system heat and system instability
+
+* Once you have tested overclocking using tools like Furmark and Unigine Superpostion, and are satisfied with system stability, then run the following to enable GPU overclocking permanently:
 
 ```console
 systemctl enable --now cyan-skillfish-governor-smu
 ```
-
-* CAUTION -> Overclocking the GPU can cause increased system heat and system instability
 
 
 ## Overclocking and Undervolting
