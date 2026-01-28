@@ -22,7 +22,6 @@ sudo copr enable filippor/bazzite <<< y 2>/dev/null || true &&
 sudo rpm-ostree cleanup -m 2>/dev/null || true &&
 sudo rpm-ostree refresh-md 2>/dev/null || true &&
 rpm-ostree install cyan-skillfish-governor-smu 2>/dev/null || true &&
-systemctl enable --now cyan-skillfish-governor-smu 2>/dev/null || true &&
 rpm-ostree kargs --append-if-missing=mitigations=off 2>/dev/null || true &&
 rpm-ostree kargs --append-if-missing=zswap.enabled=1 2>/dev/null || true &&
 rpm-ostree kargs --append-if-missing=zswap.max_pool_percent=25 2>/dev/null || true &&
