@@ -66,6 +66,14 @@ sudo su
 ./Setup-16GB.sh
 ```
 
+* After the system has rebooted, if you wish to enable GPU overclocking, then run the following command in the terminal:
+
+```console
+systemctl enable --now cyan-skillfish-governor-smu
+```
+
+* CAUTION -> Overclocking the GPU can cause increased system heat and system instability
+
 ### Red Pill:
 
 * To install the 32GB script, copy and paste all of these lines into your terminal altogether and hit enter:
@@ -87,6 +95,16 @@ sudo su
 ```console
 ./Setup-32GB.sh
 ```
+
+* After the system has rebooted, if you wish to enable GPU overclocking, then run the following command in the terminal:
+
+```console
+systemctl enable --now cyan-skillfish-governor-smu
+```
+
+* CAUTION -> Overclocking the GPU can cause increased system heat and system instability
+
+
 ## Overclocking and Undervolting
 
 * To edit the governor, you will find the configuration file here:
