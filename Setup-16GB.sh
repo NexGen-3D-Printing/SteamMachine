@@ -42,3 +42,5 @@ sudo echo 'vm.swappiness = 180' | sudo tee /etc/sysctl.d/99-swappiness.conf || t
 rpm-ostree initramfs --enable --arg=--add-drivers --arg=lz4 || true
 echo "Setup Complete"
 echo "Please reboot your system using the following command: systemctl reboot"
+echo "After the system has rebooted, if you wish to enable GPU overclocking, then run the following command in the terminal: systemctl enable --now cyan-skillfish-governor-smu"
+echo "CAUTION -> Overclocking the GPU can cause increased system heat and system instability"
