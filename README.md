@@ -41,7 +41,7 @@
 ### The only defference between these scripts is the swapfile size, if you have a large NVME storage solution then just go with 32GB, but if you only have a small drive, then wasting 32GB could be a tall order, so use the 16GB script, I haven't done enough testing to see if there is any impact, choose wisely :) do you take the Red Pill, or the Blue Pill.
  
  
-## Script Installation 
+## Script Installation
 
 
 ### Blue Pill:
@@ -51,6 +51,7 @@
 ```console
 mkdir -p ~/NXG3D &&
 cd ~/NXG3D &&
+rm Setup-16GB.sh 2>/dev/null || true && 
 wget https://raw.githubusercontent.com/NexGen-3D-Printing/SteamMachine/main/Setup-16GB.sh &&
 chmod +x ~/NXG3D/Setup-16GB.sh
 ```
@@ -87,6 +88,7 @@ systemctl enable --now cyan-skillfish-governor-smu
 ```console
 mkdir -p ~/NXG3D &&
 cd ~/NXG3D &&
+rm Setup-32GB.sh 2>/dev/null || true && 
 wget https://raw.githubusercontent.com/NexGen-3D-Printing/SteamMachine/main/Setup-32GB.sh &&
 chmod +x ~/NXG3D/Setup-32GB.sh
 ```
