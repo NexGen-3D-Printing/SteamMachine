@@ -14,7 +14,7 @@
 
 * If you would like to donate or tip me for my work: https://ko-fi.com/nexgen3d
 
-* If you're in Australia and would like to purchase one of my cases directly from me: https://www.ebay.com.au/str/nexgen3dprinting
+* I have now created my own online store, this covers Australia and most international locations: https://nexgen3d.bigcartel.com
 
 * If you're in the US and you would like to purchase one of my Steam Machine cases professionally printed: https://www.etsy.com/listing/4433157329/bc-250-case-by-nexgen3d
 
