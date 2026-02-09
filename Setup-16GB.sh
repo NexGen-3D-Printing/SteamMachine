@@ -26,7 +26,7 @@ rpm-ostree kargs --append-if-missing=mitigations=off 2>/dev/null || true &&
 rpm-ostree kargs --append-if-missing=zswap.enabled=1 2>/dev/null || true &&
 rpm-ostree kargs --append-if-missing=zswap.max_pool_percent=25 2>/dev/null || true &&
 rpm-ostree kargs --append-if-missing=zswap.compressor=lz4 2>/dev/null || true &&
-sudo echo "" | sudo tee /etc/systemd/zram‑generator.conf 2>/dev/null || true &&
+rpm-ostree kargs --append-if-missing=systemd.zram=0 2>/dev/null || true &&
 sudo swapoff /var/swap/swapfile 2>/dev/null || true &&
 sudo rm -f /var/swap/swapfile 2>/dev/null || true &&
 sudo btrfs subvolume delete /var/swap 2>/dev/null || true &&
