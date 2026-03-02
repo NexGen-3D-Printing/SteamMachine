@@ -82,13 +82,13 @@ stress-ng --matrix 0 -t 5m
 
 ##### For the DIY Steam Machine Pro I recommend the following 2 profiles:
 
-##### * Profile 1
+* ##### Profile 1
 
 ```console
 bc250-detect --frequency 4000 --vid 1275 --temp 75 --keep
 ```
 
-##### * Profile 2
+* ##### Profile 2
 
 ```console
 bc250-detect --frequency 4100 --vid 1325 --temp 75 --keep
