@@ -1,6 +1,14 @@
 # Setup instructions for the BC-250
 
+#### Corsair Commander Duo Intallation:
 
+##### The Controller requires software to be installed in order to use it, if you havea Windows machine, I highly recommend connecting it and updating the firmware on that machine first, as some have outdated firmware on them out of the box, and you will need to use the official Corsair software to update them.
+
+Official Corsair Software Link: https://www.corsair.com/ww/en/s/icue
+
+Recommended Firmware: https://www.corsair.com/ww/en/explorer/release-notes/controllers/commander-duo-09107-beta/
+
+Once all that is done, you can connect it
 
 #### ACPI Table/C-States Install:
 
@@ -78,7 +86,7 @@ bc250-detect --frequency 3850 --vid 1135 --temp 85 --keep
 stress-ng --matrix 0 -t 5m
 ```
 
-##### If that passes, then great leave it like this for now, and test some games and just use the system for a while before locking this in, if the mach crashes to a green screen, this will indicate you need to increase the voltage, so adjust the --vid 1135 up by 5 at a time, the default for the system is 1180, so anything under this is an undervolt and will result in a cooler running system.
+##### If that passes, then great leave it like this for now, and test some games and just use the system for a while before locking this in, if the machine crashes to a green screen, this will indicate you need to increase the voltage, so adjust the --vid up by 5 at a time, the default for the system is 1180, so anything under this is an undervolt and will result in a cooler running system.
 
 ##### For the DIY Steam Machine Pro I recommend the following 2 profiles:
 
@@ -101,3 +109,17 @@ stress-ng --matrix 0 -t 5m
 ```
 
 ##### If that passes, then great leave it like this for now, and test some games and just use the system for a while before locking this in, if the mach crashes to a green screen, this will indicate you need to increase the voltage, so adjust the --vid up by 5 at a time
+
+##### Once you are 100% happy, and no crashing has happend, leave the system powered and idling in the Desktop environment for a few hours, as it some cases, it will crash at idle if things are not right, if this happens, then increase the --vid by another 5 and try again.
+
+##### When you think the system is good, and you having no issues, you can now lock these settings in so they are applied at boot time, using the following:
+
+```console
+bc250-apply --install overclock.conf
+```
+
+```console
+systemctl enable bc250-smu-oc
+```
+
+##### Job done
