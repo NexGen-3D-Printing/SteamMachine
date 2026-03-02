@@ -1,2 +1,3 @@
 Setup instructions for the BC-250
-Comming very soon :)
+
+
