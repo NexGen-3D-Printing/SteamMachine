@@ -4,7 +4,7 @@
 
 ### ACPI Table/C-States Install:
 
-##### Please run each line, 1 at a time in ther terminal
+#### Please run each line, 1 at a time in ther terminal
 
 ```console
 git clone https://github.com/bc250-collective/bc250-acpi-fix.git
