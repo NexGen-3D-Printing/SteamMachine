@@ -2,9 +2,9 @@ Setup instructions for the BC-250
 
 
 
-** ACPI Table/C-States Install:
+## ACPI Table/C-States Install:
 
-* Please run each line, 1 at a time in ther terminal
+# Please run each line, 1 at a time in ther terminal
 
 ```console
 git clone https://github.com/bc250-collective/bc250-acpi-fix.git
@@ -34,7 +34,7 @@ echo 'GRUB_EARLY_INITRD_LINUX_CUSTOM="../../SSDT_ACPI.cpio"' | sudo tee -a /etc/
 ujust regenerate-grub
 ```
 
-* once completed, then restart the system using this command
+# once completed, then restart the system using this command
 
 ```console
 systemctl reboot
