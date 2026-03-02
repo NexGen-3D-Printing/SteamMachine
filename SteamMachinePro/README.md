@@ -40,3 +40,27 @@ ujust regenerate-grub
 systemctl reboot
 ```
 
+
+
+## CPU Overclocking:
+
+### Enter one line at a time
+
+```console
+rpm-ostree install stress
+```
+```console
+git clone https://github.com/bc250-collective/bc250_smu_oc.git
+```
+```console
+cd bc250_smu_oc
+```
+```console
+pip install .
+```
+
+### once completed, then restart the system using this command
+
+```console
+systemctl reboot
+```
