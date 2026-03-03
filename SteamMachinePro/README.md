@@ -2,12 +2,12 @@
 ### Setup instructions for the BC-250 running in the DIY Steam Machine Pro
 #
 Table of Contents:
-* [Setup the Corsair Commander Duo with OpenLinkHub](https://github.com/NexGen-3D-Printing/SteamMachine/edit/main/SteamMachinePro/README.md#corsair-commander-duo-intallation)
-* [Install the ACPI Tables (So the Powersave/Optimal/Permance power profiles all function correctly)](https://github.com/NexGen-3D-Printing/SteamMachine/edit/main/SteamMachinePro/README.md#acpi-tablec-states-install)
+* Setup the Corsair Commander Duo with OpenLinkHub
+* Install the ACPI Tables (So the Powersave/Optimal/Permance power profiles all function correctly)
 * Install the CPU Overclocking Software and Overclock the CPU (also added a section for undervolting the air colled DIY Steam Machine
 #
 
-
+#
 ##### Corsair Commander Duo Intallation:
 
 The Controller requires software to be installed in order to use it, if you havea Windows machine, I highly recommend connecting it and updating the firmware on that machine first, as some have outdated firmware on them out of the box, and you will need to use the official Corsair software to update them.
@@ -60,11 +60,11 @@ This will allow you to open the web GUI from your web browser on localhost:27003
 ```console
 hostname -I
 ```
+#
 
 
 
-
-
+#
 ##### ACPI Table/C-States Install:
 
 Please run each line, 1 at a time in ther terminal
@@ -103,10 +103,10 @@ Once completed, then restart the system using this command
 ```console
 systemctl reboot
 ```
+#
 
 
-
-
+#
 ##### CPU Overclocking:
 
 Enter one line at a time
@@ -188,3 +188,4 @@ systemctl enable bc250-smu-oc
 ```
 
 Job done and happy gaming :)
+#
