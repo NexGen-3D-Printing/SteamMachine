@@ -1,13 +1,12 @@
-
+#
+#
 # <p align="center"> NexGen3D DIY Steam Machine - (BC-250) </p>
-
-
-
+#
 [![](https://github.com/NexGen-3D-Printing/SteamMachine/blob/main/Main_Image.jpg)]([https://github.com/NexGen-3D-Printing/SteamMachine/blob/main/Main_Image.jpg)
-
+#
+#
 ## <p align="center"> Information and fixes for my DIY Steam Machine using the BC-250 </p>
-
-
+#
 #### Links:
 
 * DIY Steam Machine: https://www.printables.com/model/1499974-nexgen3d-diy-steam-machine-powered-by-bazzite
@@ -19,8 +18,8 @@
 * I have now created my own online store, this covers Australia and most international locations: https://nexgen3d.bigcartel.com
 
 * If you're in the US and you would like to purchase one of my Steam Machine cases professionally printed: https://www.etsy.com/listing/4433157329/bc-250-case-by-nexgen3d
-
-
+#
+#
 #### This Bazzite optimisation script for the BC-250 SBC does the following:
 
 * Enable the filippor‑bazzite COPR repo
@@ -38,15 +37,14 @@
 * Set vm.swappiness = 180
 
 * Disable zram
-
-
-### The only defference between these scripts is the swapfile size, if you have a large NVME storage solution then just go with 32GB, but if you only have a small drive, then wasting 32GB could be a tall order, so use the 16GB script, I haven't done enough testing to see if there is any impact, choose wisely :) do you take the Red Pill, or the Blue Pill.
- 
- 
-## Script Installation
-
-
-### Blue Pill:
+#
+#
+The only defference between these scripts is the swapfile size, if you have a large NVME storage solution then just go with 32GB, but if you only have a small drive, then wasting 32GB could be a tall order, so use the 16GB script, I haven't done enough testing to see if there is any impact, choose wisely :) do you take the Red Pill, or the Blue Pill.
+#
+#
+#### <p align="center"> Script Installation </p>
+#
+##### Blue Pill:
 
 * To install the 16GB script, copy and paste all of these lines into your terminal altogether and hit enter:
 
@@ -83,7 +81,7 @@ systemctl start cyan-skillfish-governor-smu
 systemctl enable --now cyan-skillfish-governor-smu
 ```
 
-### Red Pill:
+##### Red Pill:
 
 * To install the 32GB script, copy and paste all of these lines into your terminal altogether and hit enter:
 
@@ -119,10 +117,10 @@ systemctl start cyan-skillfish-governor-smu
 ```console
 systemctl enable --now cyan-skillfish-governor-smu
 ```
-
-
-## Overclocking and Undervolting
-
+#
+#
+#### <p align="center"> Overclocking and Undervolting </p>
+#
 * To edit the governor, you will find the configuration file here:
 
 ```console
@@ -164,9 +162,10 @@ systemctl restart cyan-skillfish-governor-smu
 ```console
 systemctl status cyan-skillfish-governor-smu
 ```
-
-## Useful Links:
-
+#
+#
+#### <p align="center"> Useful Links and Software Used in My Project </p>Useful Links
+#
 * Complete Guide for the BC-250: https://elektricm.github.io/amd-bc250-docs/
 
 * FilippoR's Repo for the Governor used in my script: https://github.com/filippor/cyan-skillfish-governor/tree/smu
@@ -180,5 +179,7 @@ systemctl status cyan-skillfish-governor-smu
 * Link to my YouTube Channel: https://www.youtube.com/@NexGen-3D
 
 * Link to my Printables Profile: https://www.printables.com/@NexGen3D
+#
+#
 
 [![HitCount](https://hits.dwyl.com/NexGen-3D-Printing/SteamMachine.svg?style=flat-square)](http://hits.dwyl.com/NexGen-3D-Printing/SteamMachine)
