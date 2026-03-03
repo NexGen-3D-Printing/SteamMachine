@@ -4,9 +4,9 @@
 
 ##### The Controller requires software to be installed in order to use it, if you havea Windows machine, I highly recommend connecting it and updating the firmware on that machine first, as some have outdated firmware on them out of the box, and you will need to use the official Corsair software to update them.
 
-Official Corsair Software Link: https://www.corsair.com/ww/en/s/icue
+* ##### Official Corsair Software Link: https://www.corsair.com/ww/en/s/icue
 
-Recommended Firmware: https://www.corsair.com/ww/en/explorer/release-notes/controllers/commander-duo-09107-beta/
+* ##### Recommended Firmware: https://www.corsair.com/ww/en/explorer/release-notes/controllers/commander-duo-09107-beta/
 
 Once all that is done, you can connect it
 
