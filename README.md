@@ -149,7 +149,7 @@ frequency = 2400
 voltage = 1125
 ```
 
-* To under volt, I recommommend just drop 5mc from all safe points from 2050mhz and upwards, if you are having issues with it crashing, try increasing the 2000mhz safe point slowly up to 965mv as 950mv can be a little low for some boards.
+* To undervolt, I recommommend just drop 5mv from all safe points from 2050mhz and upwards, if you are having issues with it crashing, try increasing the 2000mhz safe point slowly up to 965mv as 950mv can be a little low for some boards.
 
 * To apply ant changes to the config, run this:
 
