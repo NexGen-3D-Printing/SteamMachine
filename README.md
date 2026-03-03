@@ -10,7 +10,9 @@
 
 #### Links:
 
-* My project on Printables: https://www.printables.com/model/1499974-nexgen3d-diy-steam-machine-powered-by-bazzite
+* DIY Steam Machine: https://www.printables.com/model/1499974-nexgen3d-diy-steam-machine-powered-by-bazzite
+
+* DIY Steam Machine Pro: https://www.printables.com/model/1614131-nexgen3d-diy-steam-machine-pro-liquid-cooled-bc-25
 
 * If you would like to donate or tip me for my work: https://ko-fi.com/nexgen3d
 
