@@ -2,11 +2,11 @@ Setup instructions for the BC-250 running in the DIY Steam Machine Pro
 
 Table of Contents
 
-* Setup the Corsair COmmander Duo with OpenLinkHub
+* Setup the Corsair Commander Duo with OpenLinkHub
 * Install the ACPI Tables (So the Powersave/Optimal/Permance power profiles all function correctly)
 * Install the CPU Overclocking Software and Overclock the CPU (also added a section for undervolting the air colled DIY Steam Machine
 
-
+#
 
 
 Corsair Commander Duo Intallation:
