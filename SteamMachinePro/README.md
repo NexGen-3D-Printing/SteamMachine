@@ -45,7 +45,11 @@ Once the system has rebooted, then open the following folder in your Home direct
   "listenAddress": "0.0.0.0",
 ```
 
-This will allow you to open the web GUI on http:\\localhost:27003 on you local system, but also allow you to view and edit it on any other machine on your network, by simply entering the IP address of your BC-250 with the port number 27003, so example be http:\\192.168.0.56:27003 then you can monitor and adjust things from a phne, tablet or another PC while your actually gaming on the BC-250 :)
+This will allow you to open the web GUI from your web browser on localhost:27003 on you local system, but also allow you to view and edit it on any other machine on your network, by simply entering the IP address of your BC-250 with the port number 27003, so example be 192.168.0.56:27003 then you can monitor and adjust things from a phne, tablet or another PC while your actually gaming on the BC-250 :) if you need to know what your ip address is, just open the terminal and type the following command:
+
+```console
+hostname -I
+```
 
 ##### ACPI Table/C-States Install:
 
