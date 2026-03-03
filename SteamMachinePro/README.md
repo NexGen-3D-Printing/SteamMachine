@@ -8,7 +8,30 @@
 
 * ##### Recommended Firmware: https://www.corsair.com/ww/en/explorer/release-notes/controllers/commander-duo-09107-beta/
 
-Once all that is done, you can connect it
+##### Once all that is done, you can connect it to you BC-250 and install the open source software to control it.
+
+##### OpenLinkHub: https://github.com/jurkovic-nikola/OpenLinkHub please feel free to donate to his project if your able too.
+
+##### Please run these commands, one line at a time to install OpenLinkHub:
+
+```console
+wget "https://github.com/jurkovic-nikola/OpenLinkHub/releases/latest/download/OpenLinkHub_$(curl -s https://api.github.com/repos/jurkovic-nikola/OpenLinkHub/releases/latest | jq -r '.tag_name')_amd64.tar.gz"
+```
+```console
+tar xf OpenLinkHub_?.?.?_amd64.tar.gz -C /home/$USER/
+```
+```console
+cd /home/$USER/OpenLinkHub
+```
+```console
+chmod +x install-user-space.sh
+```
+```console
+./install-user-space.sh
+```
+```console
+systemctl reboot
+```
 
 #### ACPI Table/C-States Install:
 
