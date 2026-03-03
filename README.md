@@ -171,6 +171,8 @@ systemctl status cyan-skillfish-governor-smu
 
 * Some excellent additinal information on the BC-250: https://github.com/mothenjoyer69/bc250-documentation
 
+* OpenLinkHub, an open source project to support the Corsair Commander Duo: https://github.com/jurkovic-nikola/OpenLinkHub
+
 * A link to the community on Discord pushing the limits of this SBC: https://discord.gg/uDvkhNpxRQ
 
 * Link to my YouTube Channel: https://www.youtube.com/@NexGen-3D
