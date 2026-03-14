@@ -14,7 +14,7 @@ The Controller requires software to be installed in order to use it, if you have
 
 * Official Corsair Software Link: https://www.corsair.com/ww/en/s/icue
 
-* Recommended Firmware: https://www.corsair.com/ww/en/explorer/release-notes/controllers/commander-duo-09107-beta/
+* Recommended Firmware: https://www3.corsair.com/WebSWBeta/DIY/JonesyLakeFLC_App_v0.9.107.zip
 
 Once all that is done, you can connect it to you BC-250 and install the open source software to control it.
 
