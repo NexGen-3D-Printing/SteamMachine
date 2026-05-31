@@ -1,5 +1,5 @@
 
-**Specific setup commands for the Steam Machine REDUX:
+# Specific setup commands for the Steam Machine REDUX:
 
 ###########
 Issue Fixes
