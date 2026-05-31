@@ -1,9 +1,8 @@
 
 # Specific setup commands for the Steam Machine REDUX
 
-###########
+
 ### Issue Fixes
-###########
 
 USB to Sata Adaptors: This command will fix the slow performance and erratic behaviour of the Sabrent USB to Sata Adaptor, it may also fix other types, sysptems are slow, almost USB 2.0 speeds, drop outs, and slow detection, or failure to detect.
 
@@ -16,9 +15,8 @@ Once completed, then reboot using the following:
 systemctl reboot
 ```
 
-###################
+
 ### GPU Related Tweaks:
-###################
 
 For unlocking the GPU to the full 40 Compute Unites, you can visit this repo and follow the directions https://github.com/WinnieLV/bc250-cu-live-manager or you can use the command below:
 
