@@ -88,11 +88,11 @@ When the system has rebooted, you're now ready to try some overclocking.
 
 Generic Overclock Profiles for the REDUX Case using the P12 Pro CO fans
 
-Profile 1: Cooler and Quieter (Recommend this with 2000mhz GPU and 40 CU Unlock)
+Profile 1: Cooler and Quieter (Recommend this with 2000mhz GPU and 40 CU Unlock, Roughly 14000 Points in Unigine Superpostion Medium)
 ```console
 bc250-detect --frequency 3800 --vid 1125 --temp 80 --keep
 ```
-Profile 2: Hotter and Louder (Recommend this with 2200mhz GPU and 40 CU Unlock)
+Profile 2: Hotter and Louder (Recommend this with 2200mhz GPU and 40 CU Unlock, Roughly 14500 Points in Unigine Superpostion Medium)
 ```console
 bc250-detect --frequency 3950 --vid 1200 --temp 90 --keep
 ```
