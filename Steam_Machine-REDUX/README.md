@@ -86,16 +86,21 @@ Recommend jumping into the BIOS and setting up a custom fan profile:
 
 When the system has rebooted, you're now ready to try some overclocking.
 
-Recommend Generic Overclock for the REDUX Case using the P12 Pro CO fans
+Generic Overclock Profiles for the REDUX Case using the P12 Pro CO fans
 
+Profile 1: Cooler and Quieter (Recommend this with 2000mhz GPU and 40 CU Unlock)
 ```console
-bc250-detect --frequency 3850 --vid 1160 --temp 85 --keep
+bc250-detect --frequency 3800 --vid 1125 --temp 80 --keep
+```
+Profile 2: Hotter and Louder (Recommend this with 2200mhz GPU and 40 CU Unlock)
+```console
+bc250-detect --frequency 3950 --vid 1200 --temp 90 --keep
 ```
 If this is succesful, then run the following:
 ```console
 stress-ng --matrix 0 -t 5m
 ```
-If the system seems stable, I suggest using it for a little bit like this, a reboot will clear the overclock, so if you do have an issue, you can come back, run the overclock again but add 5 to the --vid, example -> bc250-detect --frequency 3850 --vid 1165 --temp 85 --keep
+If the system seems stable, I suggest using it for a little bit like this, a reboot will clear the overclock, so if you do have an issue, you can come back, run the overclock again but add 5 to the --vid or drop the clock a little, example -> bc250-detect --frequency 3850 --vid 1165 --temp 85 --keep
 
 Once your happy with your OC, then run the following:
 
