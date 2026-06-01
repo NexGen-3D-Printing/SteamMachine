@@ -2,7 +2,7 @@
 # Specific setup commands for the Steam Machine REDUX
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
-## Issue Fixes
+### Issue Fixes
 ---------------------------------------------------------------------------------------------------------------------------------------------
 USB to Sata Adaptors: This command will fix the slow performance and erratic behaviour of the Sabrent USB to Sata Adaptor, it may also fix other types, sysptems are slow, almost USB 2.0 speeds, drop outs, and slow detection, or failure to detect.
 
@@ -16,7 +16,7 @@ systemctl reboot
 ```
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
-## GPU Related Tweaks:
+### GPU Related Tweaks:
 ---------------------------------------------------------------------------------------------------------------------------------------------
 #### Full Compute Unit Unlocking
 
