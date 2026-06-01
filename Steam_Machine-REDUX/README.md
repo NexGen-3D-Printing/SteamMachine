@@ -1,9 +1,9 @@
 
 # Specific setup commands for the Steam Machine REDUX
 
-
-### Issue Fixes
-
+---------------------------------------------------------------------------------------------------------------------------------------------
+## Issue Fixes
+---------------------------------------------------------------------------------------------------------------------------------------------
 USB to Sata Adaptors: This command will fix the slow performance and erratic behaviour of the Sabrent USB to Sata Adaptor, it may also fix other types, sysptems are slow, almost USB 2.0 speeds, drop outs, and slow detection, or failure to detect.
 
 Copy and paste this into your terminal:
@@ -15,9 +15,9 @@ Once completed, then reboot using the following:
 systemctl reboot
 ```
 
-
-### GPU Related Tweaks:
-
+---------------------------------------------------------------------------------------------------------------------------------------------
+## GPU Related Tweaks:
+---------------------------------------------------------------------------------------------------------------------------------------------
 #### Full Compute Unit Unlocking
 
 Please do this before installing the govenor, just leave everything default and do the unlock first.
@@ -47,9 +47,9 @@ sudo ./bc250-cu-live-manager.sh
 * If all is good, no artifacts or crashing, then go back to the Terminal running the unlocking tool, and select "w" and follow the prompts, this will enable the full unlock on bootup
 
 
-
+---------------------------------------------------------------------------------------------------------------------------------------------
 ### CPU Related Tweaks:
-
+---------------------------------------------------------------------------------------------------------------------------------------------
 #### Install The CPU Overclocking Software
 
 Disclaimer: All care is taken, no responsable accepted :) If you overclock, and it results in your car not starting, or microwave explodes, thats a you problem.
