@@ -45,3 +45,78 @@ sudo ./bc250-cu-live-manager.sh
 * Third step, just minimise the Terminal, leave it open and running, open the Bazaar app store, install Furmark and Mission Center.
 * Run Furmark and use Mission Center to monitor temps, and do some stability testing with Furmark
 * If all is good, no artifacts or crashing, then go back to the Terminal running the unlocking tool, and select "w" and follow the prompts, this will enable the full unlock on bootup
+
+
+
+### CPU Related Tweaks:
+
+#### Install The CPU Overclocking Software
+
+#### Disclaimer: All care is taken, no responsable accepted :) If you overclock, and it results in your car not starting, or microwave explodes, thats a you problem.
+
+Now thats out of the way, onto the fun Hollywood style haxer stuff :)
+
+Enter one line at a time.
+
+First you will need to install the stress tool:
+```console
+rpm-ostree install stress
+```
+I like to keep all of these various tools in one folder, otherwise your home folder starts to get untidy, so creat the following folder.
+```console
+mkdir ~/NXG3D &&
+cd ~/NXG3D
+```
+Clone the repo:
+```console
+git clone https://github.com/bc250-collective/bc250_smu_oc.git
+```
+Install the CPU Overclocking Tool
+```console
+cd ~/NXG3D/bc250_smu_oc
+```
+```console
+pip install .
+```
+Once completed, then restart the system using this command
+```console
+systemctl reboot
+```
+Recommend jumping into the BIOS and setting up a custom fan profile: 
+
+* TBA
+
+When the system has rebooted, you're now ready to try some overclocking.
+
+Recommend Generic Overclock for the REDUX Case using the P12 Pro CO fans
+
+```console
+bc250-detect --frequency 3850 --vid 1160 --temp 85 --keep
+```
+If this is succesful, then run the following:
+```console
+stress-ng --matrix 0 -t 5m
+```
+If the system seems stable, I suggest using it for a little bit like this, a reboot will clear the overclock, so if you do have an issue, you can come back, run the overclock again but add 5 to the --vid, example -> bc250-detect --frequency 3850 --vid 1165 --temp 85 --keep
+
+Once your happy with your OC, then run the following:
+
+```console
+bc250-apply --install overclock.conf
+```
+```console
+systemctl enable bc250-smu-oc
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
