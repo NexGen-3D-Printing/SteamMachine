@@ -52,7 +52,7 @@ sudo ./bc250-cu-live-manager.sh
 
 #### Install The CPU Overclocking Software
 
-#### Disclaimer: ##### All care is taken, no responsable accepted :) If you overclock, and it results in your car not starting, or microwave explodes, thats a you problem.
+Disclaimer: All care is taken, no responsable accepted :) If you overclock, and it results in your car not starting, or microwave explodes, thats a you problem.
 
 Now thats out of the way, onto the fun Hollywood style haxer stuff :)
 
