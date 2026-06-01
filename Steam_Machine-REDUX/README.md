@@ -82,7 +82,27 @@ systemctl reboot
 ```
 Recommend jumping into the BIOS and setting up a custom fan profile: 
 
-* TBA
+Profile 1: Use this with Overclock Profile 1
+* Temperature 1 - 20C
+* Speed for Temperature 1 - 5%
+* Temperature 2 - 30C
+* Speed for Temperature 2 - 10%
+* Temperature 3 - 40C
+* Speed for Temperature 3 - 15%
+* Temperature 4 - 50C
+* Speed for Temperature 1 - 20%
+* Critical Temperature - 75C (Set to 85C If you want it even quieter, CPU and GPU with thermal throttle more)
+
+Profile 2: Use this with Overclock Profile 2
+* Temperature 1 - 20C
+* Speed for Temperature 1 - 5%
+* Temperature 2 - 30C
+* Speed for Temperature 2 - 10%
+* Temperature 3 - 40C
+* Speed for Temperature 3 - 20%
+* Temperature 4 - 50C
+* Speed for Temperature 1 - 30%
+* Critical Temperature - 85C (Set to 95C If you want it quieter, CPU and GPU with thermal throttle more)
 
 When the system has rebooted, you're now ready to try some overclocking.
 
