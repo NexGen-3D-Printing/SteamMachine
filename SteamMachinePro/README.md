@@ -15,6 +15,7 @@ The Controller requires software to be installed in order to use it, if you have
 * Official Corsair Software Link: https://www.corsair.com/ww/en/s/icue
 
 * Recommended Firmware: https://www3.corsair.com/WebSWBeta/DIY/JonesyLakeFLC_App_v0.9.107.zip
+* In case the above link fails, I have uploaded a copy of the firmware to this repo, hopefully Corsair doesnt have a hissy fit over this: https://github.com/NexGen-3D-Printing/SteamMachine/blob/main/SteamMachinePro/Corsair_Commader_Duo_v0.9.107.zip
 
 Once all that is done, you can connect it to you BC-250 and install the open source software to control it.
 
