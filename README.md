@@ -1,4 +1,4 @@
-#
+# Please, if you can, make a donation to the Bazzite team for all their hard work: https://opencollective.com/bazzite-us
 #
 # <p align="center"> NexGen3D DIY Steam Machine - (BC-250) </p>
 #
