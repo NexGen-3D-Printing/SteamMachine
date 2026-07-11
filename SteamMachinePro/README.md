@@ -44,7 +44,7 @@ systemctl reboot
 ```
 
 
-Once the system has rebooted, then open the following folder in your Home directoy "OpenLinkHub" and open the onfig.json file, should just open in Kate, and go to line 4 and change:
+Once the system has rebooted, then open the following folder in your Home directoy "OpenLinkHub" and open the config.json file, should just open in Kate, and go to line 4 and change:
 
 ```console
  "listenAddress": "127.0.0.1",
