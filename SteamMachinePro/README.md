@@ -68,7 +68,7 @@ hostname -I
 #
 ##### ACPI Table/C-States Install:
 
-Please run each line, 1 at a time in ther terminal
+Please run each line, 1 at a time in the terminal
 
 
 ```console
