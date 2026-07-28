@@ -25,20 +25,9 @@ Please run these commands, one line at a time to install OpenLinkHub:
 
 
 ```console
-wget "https://github.com/jurkovic-nikola/OpenLinkHub/releases/latest/download/OpenLinkHub_$(curl -s https://api.github.com/repos/jurkovic-nikola/OpenLinkHub/releases/latest | jq -r '.tag_name')_amd64.tar.gz"
+curl -fsSL https://raw.githubusercontent.com/jurkovic-nikola/OpenLinkHub/main/remote-install.sh | bash
 ```
-```console
-tar xf OpenLinkHub_?.?.?_amd64.tar.gz -C /home/$USER/
-```
-```console
-cd /home/$USER/OpenLinkHub
-```
-```console
-chmod +x install-user-space.sh
-```
-```console
-./install-user-space.sh
-```
+
 ```console
 systemctl reboot
 ```
