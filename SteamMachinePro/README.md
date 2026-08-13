@@ -50,6 +50,9 @@ This will allow you to open the web GUI from your web browser on localhost:27003
 ```console
 hostname -I
 ```
+
+If you run the "Deck" version of Bazzite and you have chosen to use the Corsair Commander DUO, someone has created a simple Decky plugin to control OpenLinkHub from the QAM (Quick Access Menu) in Steam Gaming Mode - https://github.com/joshdelany-sudo/bc250-commander-control/
+
 #
 
 
